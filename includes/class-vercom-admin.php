@@ -81,19 +81,6 @@ class Vercom_Admin {
 		);
 
 		add_settings_field(
-			'vercom_api_token',
-			__( 'Authorization Token', 'vercom-messageflow-plugin' ),
-			array( $this, 'render_password_field' ),
-			'vercom-messageflow-plugin',
-			'vercom_credentials_section',
-			array(
-				'label_for'   => 'vercom-api-token',
-				'field_key'   => 'api_token',
-				'description' => __( 'Found in MessageFlow panel: Konto > Ustawienia > API > Nowy klucz API.', 'vercom-messageflow-plugin' ),
-			)
-		);
-
-		add_settings_field(
 			'vercom_application_key',
 			__( 'Application Key', 'vercom-messageflow-plugin' ),
 			array( $this, 'render_password_field' ),
@@ -102,6 +89,19 @@ class Vercom_Admin {
 			array(
 				'label_for'   => 'vercom-application-key',
 				'field_key'   => 'application_key',
+				'description' => __( 'Found in MessageFlow panel: Konto > Ustawienia > API > Nowy klucz API.', 'vercom-messageflow-plugin' ),
+			)
+		);
+
+		add_settings_field(
+			'vercom_api_token',
+			__( 'Authorization Token', 'vercom-messageflow-plugin' ),
+			array( $this, 'render_password_field' ),
+			'vercom-messageflow-plugin',
+			'vercom_credentials_section',
+			array(
+				'label_for'   => 'vercom-api-token',
+				'field_key'   => 'api_token',
 				'description' => __( 'Found in MessageFlow panel: Konto > Ustawienia > API > Nowy klucz API.', 'vercom-messageflow-plugin' ),
 			)
 		);
