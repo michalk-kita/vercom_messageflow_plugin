@@ -52,6 +52,7 @@ Without domain authorization, the MessageFlow API will reject emails with a 400 
 5. Save the following values:
    - **Authorization Token** (128-character string)
    - **Application Key**
+6. **Note:** Newly generated keys may need a few minutes to become active
 
 ### 3. SMTP Account
 
