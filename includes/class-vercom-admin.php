@@ -200,6 +200,11 @@ class Vercom_Admin {
 			esc_url( 'https://app.messageflow.com' ),
 			esc_html__( 'Open MessageFlow panel', 'vercom-messageflow-plugin' )
 		);
+		printf(
+			'<div class="notice notice-info inline" style="margin: 10px 0;"><p><strong>&#9432; %s</strong> %s</p></div>',
+			esc_html__( 'Important:', 'vercom-messageflow-plugin' ),
+			esc_html__( 'When creating the API key, make sure to select the "E-mail API" permission. Without it, the key will not be authorized to send emails.', 'vercom-messageflow-plugin' )
+		);
 	}
 
 	/**

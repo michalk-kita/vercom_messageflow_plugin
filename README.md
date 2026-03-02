@@ -47,7 +47,9 @@ Without domain authorization, the MessageFlow API will reject emails with a 400 
 
 1. Log in to the [MessageFlow panel](https://app.messageflow.com)
 2. Go to **Konto > Ustawienia > API**
-3. Click **Nowy klucz API** and save:
+3. Click **Nowy klucz API**
+4. **Important:** Select the **E-mail API** permission — without it, the key will not be authorized to send emails
+5. Save the following values:
    - **Authorization Token** (128-character string)
    - **Application Key**
 
