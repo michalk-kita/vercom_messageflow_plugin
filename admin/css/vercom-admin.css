@@ -1,0 +1,30 @@
+/**
+ * Vercom Messageflow Plugin admin styles.
+ *
+ * @since   1.0.0
+ * @package Vercom_Messageflow_Plugin
+ */
+
+#vercom-test-result {
+	display: inline-block;
+	margin-left: 10px;
+	padding: 4px 12px;
+	font-weight: 600;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+#vercom-test-result.vercom-success {
+	color: #00a32a;
+	background-color: #edfaef;
+}
+
+#vercom-test-result.vercom-error {
+	color: #d63638;
+	background-color: #fcf0f1;
+}
+
+#vercom-send-test {
+	margin-left: 8px;
+	vertical-align: middle;
+}

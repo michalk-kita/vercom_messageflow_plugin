@@ -1,0 +1,16 @@
+/**
+ * Plik LICENSE (GPL v2) jest wymagany w przypadku:
+ * - publikacji pluginu w oficjalnym repozytorium WordPress.org,
+ * - dystrybucji pluginu jako open-source (np. publiczne repo na GitHub).
+ *
+ * WordPress wymaga, aby wszystkie pluginy dystrybuowane przez wordpress.org
+ * byly licencjonowane na GPL v2 lub nowszej.
+ *
+ * Pelna tresc licencji: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ *
+ * W przypadku produkcyjnego wdrozenia nalezy:
+ * 1. Umiescic tutaj pelna tresc licencji GPL v2.
+ * 2. Dodac do naglowka pluginu (vercom_messageflow_plugin.php) pola:
+ *    - License:     GPL v2 or later
+ *    - License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ */
